@@ -10,5 +10,6 @@ public class AreaOfCircle {
         float r = in.nextFloat();
         double area = Math.PI * r * r;
         System.out.println("Area of circle: "+area);
+        in.close();
     }
 }
